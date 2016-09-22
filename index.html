@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>GyroPrint3D</title>
+		<meta name="description" content="Tab Styles Inspiration: A small collection of styles for tabs" />
+		<meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+        <link rel="stylesheet" type="text/css" href="css/new.css" />
+  		<script src="js/modernizr.custom.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<svg class="hidden">
+			<defs>
+				<path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
+			</defs>
+		</svg>
+		<div class="container">
+			<!-- Top Navigation -->
+
+			<header class="codrops-header head">
+                <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" poster="http://dummyimage.com/320x240/ffffff/fff">
+                    <source src="videos/4.mp4" type="video/mp4" />
+                </video>
+                <img src="img/logo.png">
+                <h1>GyroPrint3D <span>calidad, eficiencia y compromiso.</span></h1>
+
+                
+				<p class="support">Your browser does not support <strong>flexbox</strong>! <br />Please view this demo with a <strong>modern browser</strong>.</p>
+			</header>
+			<section>
+				<div class="tabs tabs-style-linemove">
+					<nav id="navbar">
+						<ul>
+							<li><a href="#section-linemove-1" class="icon icon-box"><span>Impresión</span></a></li>
+							<li><a href="#section-linemove-2" class="icon icon-display"><span>Escaneo</span></a></li>
+							<li><a href="#section-linemove-3" class="icon icon-gift"><span>Grabado Láser</span></a></li>
+							<li><a href="#section-linemove-4" class="icon icon-plug"><span>Contacto</span></a></li>
+							<li><a href="#section-linemove-5" class="icon icon-home"><span>Empresa</span></a></li>
+						</ul>
+					</nav>
+					<div class="content-wrap">
+						<section id="section-linemove-1" style="height:1000px;">
+                            <p>Impresión</p>
+                            <img src="img/printer.png">
+                            <div>
+                                Impresión en abs, pla, nylon, tpu (flexible), en color blanco, negro, transparente, azul, verde, amarillo, rojo, naranja, etc.<br><br>
+                                El tamaño de impresión es de 25 x 25 x 25 cm.
+                            </div>
+                        </section>
+                        
+						<section id="section-linemove-2">
+                            <p>Escaneo</p>
+                            <img src="img/scanner.png">
+                            <div>
+                                Contamos con un escaner de mesa de gran precisión para objetos de hasta 18 de diámetro por 25 de altura. Además poseemos de otro de mano, utilizado en objetos de mayor tamaño.<br><br>
+                                Como resultado se puede entregar el Modelo 3D o de ser necesario la pieza impresa a partir del mismo.
+                            </div>
+                        </section>
+                        
+						<section id="section-linemove-3">
+                            <p>Grabado Láser</p>
+                            <img src="img/laser.png">
+                            <div>
+                                Corte o grabado de hasta 20 x 20 cm con una profundidad de hasta 3 mm en madera, corte de flexiglas, plástico, cartón, cuero, semicuero, y materiales de dureza similar.<br><br>
+                                Grabado en cuero, semicuero, plástico, madera, y materiales de la misma dureza. Además, de materiales pintados.
+                            </div>
+                        </section>
+                        
+						<section id="section-linemove-4">
+                            <p>Contacto</p>
+                        </section>
+                        
+						<section id="section-linemove-5">
+                            <p>Gyroprint3D</p>
+                            Prestamos servicio a pequeñas empresas, como también al detal: profesionales y aficionados buscan nuestro apoyo en la elaboración de piezas de alta calidad para investigaciones, reparaciones o simplemente como regalos y decoración.<br><br>
+                            Nacimos gracias al apoyo del Parque Tecnológico Sartenejas en donde actualmente residimos y trabajamos.<br><br><br><br><br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.8268262686397!2d-66.88509246341165!3d10.405864676066727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd54207b29b43e2e!2sParque+Tecnol%C3%B3gico+Sartenejas!5e0!3m2!1sen!2sve!4v1473051279536" width="1000" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </section>
+					</div><!-- /content -->
+				</div><!-- /tabs -->
+			</section>
+		</div><!-- /container -->
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+	</body>
+</html>
