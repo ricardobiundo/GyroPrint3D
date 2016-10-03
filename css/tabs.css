@@ -17,7 +17,7 @@
 	margin: 0 auto;
 	width: 100%;
 	font-weight: 300;
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 
 /* Nav */
@@ -151,16 +151,18 @@
 	max-width: 1200px;
 	text-align: center;
     /* new */
-    min-height: 100vh;
+    min-height: 130vh;
 }
 
 .content-wrap section.content-current {
 	display: block;
+    /* new */
+    min-height: 130vh;
 }
 
 .content-wrap section p {
 	margin: 0;
-	padding: 0.75em 0;
+	padding: 1.75em 0;
 	color: rgba(40,44,42,0.05);
 	font-weight: 900;
 	font-size: 4em;

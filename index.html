@@ -52,8 +52,11 @@
                             <p>Impresión</p>
                             <img src="img/printer.png">
                             <div>
-                                Impresión en abs, pla, nylon, tpu (flexible), en color blanco, negro, transparente, azul, verde, amarillo, rojo, naranja, etc.<br><br>
-                                El tamaño de impresión es de 25 x 25 x 25 cm.
+                                Trabajamos con la tecnología FDM (Modelado por deposición fundida) de la impresión 3D.<br><br>
+
+                                Contamos con ABS, PLA, TPU (Flexible) y Nylon, es distintos colores, para ajustar la impresión a la necesidad del cliente. Desde piezas compactas y resistentes, como herramientas de trabajo, o repuestos de automóviles, hasta piezas sencillas como adornos y accesorios para celulares o laptops.<br><br>
+
+                                Actualmente contamos con un espacio de impresión hasta de 25 cm<sup>3</sup>, con una precisión de 50 micrones.<br><br><br><br>
                             </div>
                         </section>
                         
@@ -61,8 +64,8 @@
                             <p>Escaneo</p>
                             <img src="img/scanner.png">
                             <div>
-                                Contamos con un escaner de mesa de gran precisión para objetos de hasta 18 de diámetro por 25 de altura. Además poseemos de otro de mano, utilizado en objetos de mayor tamaño.<br><br>
-                                Como resultado se puede entregar el Modelo 3D o de ser necesario la pieza impresa a partir del mismo.
+                                Con el apoyo de dos escáneres, ofrecemos el servicio de digitalización de piezas para su posterior reproducción, modificación o reparación a través de nuestros otros 2 servicios (Impresión 3D y corte láser). Además, con los modelos 3D obtenidos por el Escaneo 3D, se pueden realizar diseños que se adapten al objeto en cuestión, y así complementar proyectos existentes.<br><br>
+                                Contamos con 1 escáner de escritorio, con dimensiones máximas de 18 cm de díametro por 25 cm de alto, con una resolución de 0.5 mm y 1 escáner de mano para objetos más grandes o con formas más complejas.<br><br><br><br>
                             </div>
                         </section>
                         
@@ -70,13 +73,27 @@
                             <p>Grabado Láser</p>
                             <img src="img/laser.png">
                             <div>
-                                Corte o grabado de hasta 20 x 20 cm con una profundidad de hasta 3 mm en madera, corte de flexiglas, plástico, cartón, cuero, semicuero, y materiales de dureza similar.<br><br>
-                                Grabado en cuero, semicuero, plástico, madera, y materiales de la misma dureza. Además, de materiales pintados.
+                                El grabado láser representa una opción a los otros servicios ofrecidos, por su rapidez y altísima precisión, para accesorios personalizados como también para maquetas o prototipos sencillos.<br><br>
+
+                                Además, tiene la opción de trabajar con una gran variedad de materiales, como madera, plexiglas, plástico, cartón, cuero, semicuero, entre otros.<br><br>
+
+                                Actualmente contamos con un espacio de trabajo de 20 cm x 30 cm, con láminas de hasta 3 mm de grosor.<br><br><br><br>
                             </div>
                         </section>
                         
 						<section id="section-linemove-4">
                             <p>Contacto</p>
+                            <ul>
+                                <li>
+                                    <img src="vectors/v_account.svg"/>gyroprint3d@gmail.com
+                                </li>
+                                <li>
+                                    <img src="vectors/v_twitter.svg"/>@GyroPrint3D
+                                </li>
+                                <li>
+                                    <img src="vectors/v_instagram.svg"/>@gyroprint3d
+                                </li>
+                            </ul>
                         </section>
                         
 						<section id="section-linemove-5">
@@ -88,7 +105,11 @@
 					</div><!-- /content -->
 				</div><!-- /tabs -->
 			</section>
+            <footer>
+                <img src="vectors/logo.svg"/>
+            </footer>
 		</div><!-- /container -->
+
 		<script src="js/cbpFWTabs.js"></script>
 		<script>
 			(function() {
@@ -99,5 +120,14 @@
 
 			})();
 		</script>
+        <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 500) {
+                $('footer').css('z-index', '-1');
+            } else {
+                $('footer').css('z-index', '-20');
+            }
+        });
+        </script>
 	</body>
 </html>
