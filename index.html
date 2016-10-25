@@ -14,10 +14,192 @@
 		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
 		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
         <link rel="stylesheet" type="text/css" href="css/new.css" />
+        <link rel="stylesheet" type="text/css" href="css/img.css" />
+        <link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
   		<script src="js/modernizr.custom.js"></script>
+        <script src="js/ninja-slider.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        
+        
+        
+        <script>
+        function lightbox(idx) {
+            //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+            var ninjaSldr = document.getElementById("ninja-slider");
+            ninjaSldr.parentNode.style.display = "block";
+
+            nslider.init(idx);
+
+            var fsBtn = document.getElementById("fsBtn");
+            fsBtn.click();
+        }
+
+        function fsIconClick(isFullscreen) { //fsIconClick is the default event handler of the fullscreen button
+            if (isFullscreen) {
+                var ninjaSldr = document.getElementById("ninja-slider");
+                ninjaSldr.parentNode.style.display = "none";
+            }
+        }
+    </script>
+        
+        
+        
 	</head>
 	<body>
+        
+        <div style="display:none;">
+        <div id="ninja-slider">
+            <div class="slider-inner">
+                <ul>
+                    <li>
+                        <a class="ns-img" href="img/impresion/1.jpg"></a>
+                        <div class="caption">
+                            <h3>Diseño 3D del Ávila</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/2.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/3.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/4.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/5.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/6.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/7.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/8.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/9.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/10.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/11.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/12.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/13.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/14.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/15.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/16.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/17.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/18.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/19.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/impresion/20.jpg"></a>
+                        <div class="caption">
+                            <h3>Dummy Caption 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+            </div>
+        </div>
+    </div>
+        
+        
+        
+        
 		<svg class="hidden">
 			<defs>
 				<path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
@@ -48,15 +230,158 @@
 						</ul>
 					</nav>
 					<div class="content-wrap">
-						<section id="section-linemove-1" style="height:1000px;">
+						<section id="section-linemove-1">
                             <p>Impresión</p>
                             <img src="img/printer.png">
-                            <div>
+                            <div class="gallery">
                                 Trabajamos con la tecnología FDM (Modelado por deposición fundida) de la impresión 3D.<br><br>
 
                                 Contamos con ABS, PLA, TPU (Flexible) y Nylon, es distintos colores, para ajustar la impresión a la necesidad del cliente. Desde piezas compactas y resistentes, como herramientas de trabajo, o repuestos de automóviles, hasta piezas sencillas como adornos y accesorios para celulares o laptops.<br><br>
 
                                 Actualmente contamos con un espacio de impresión hasta de 25 cm<sup>3</sup>, con una precisión de 50 micrones.<br><br><br><br>
+                                
+                                <ul id="rig">
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(0)">
+                                            <img class="rig-img" src="img/impresion/1.jpg" >
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Diseño de impresión del Ávila</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(1)">
+                                            <img class="rig-img" src="img/impresion/2.jpg"  >
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Dije de Pokemón Go</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(2)">
+                                            <img class="rig-img" src="img/impresion/3.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Dije de Pokemón Go</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(3)">
+                                            <img class="rig-img" src="img/impresion/4.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Proceso de impresión del modelo de un hueso humano</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(4)">
+                                            <img class="rig-img" src="img/impresion/5.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Pikachu</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(5)">
+                                            <img class="rig-img" src="img/impresion/6.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Dije laberinto</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(6)">
+                                            <img class="rig-img" src="img/impresion/7.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Modelos variados</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(7)">
+                                            <img class="rig-img" src="img/impresion/8.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Dije de Game of Thrones</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(8)">
+                                            <img class="rig-img" src="img/impresion/9.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Trofeos</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(9)">
+                                            <img class="rig-img" src="img/impresion/10.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Companion Cube del videojuego Portal</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(10)">
+                                            <img class="rig-img" src="img/impresion/11.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Tapa del recerborio de agua de un automóvil</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(11)">
+                                            <img class="rig-img" src="img/impresion/12.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Modelos miniaturas variados</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(12)">
+                                            <img class="rig-img" src="img/impresion/13.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Dijes de Game of Thrones</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(13)">
+                                            <img class="rig-img" src="img/impresion/14.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Impresora 3D</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(14)">
+                                            <img class="rig-img" src="img/impresion/15.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Carretes de impresión</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(15)">
+                                            <img class="rig-img" src="img/impresion/16.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Boo, personaje del videojuego Super Mario</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(16)">
+                                            <img class="rig-img" src="img/impresion/17.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Proceso de impresión de una jabonera</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(17)">
+                                            <img class="rig-img" src="img/impresion/18.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Modelo impreso de un hueso humano</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(18)">
+                                            <img class="rig-img" src="img/impresion/19.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Diversos huesos que conforman el pie humano</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(19)">
+                                            <img class="rig-img" src="img/impresion/20.jpg">
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Modelos variados</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </section>
                         
@@ -78,6 +403,30 @@
                                 Además, tiene la opción de trabajar con una gran variedad de materiales, como madera, plexiglas, plástico, cartón, cuero, semicuero, entre otros.<br><br>
 
                                 Actualmente contamos con un espacio de trabajo de 20 cm x 30 cm, con láminas de hasta 3 mm de grosor.<br><br><br><br>
+                                
+                                <ul id="rig">
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(0)">
+                                            <img class="rig-img" src="img/grabado/1.jpg" >
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Grabado sobre cartón</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(0)">
+                                            <img class="rig-img" src="img/grabado/2.jpg" >
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Grabado sobre madera gruesa</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rig-cell" href="#" onclick="lightbox(0)">
+                                            <img class="rig-img" src="img/grabado/3.jpg" >
+                                            <span class="rig-overlay"></span>
+                                            <span class="rig-text">Muestra previa al grabado sobre cuero</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </section>
                         
@@ -107,6 +456,20 @@
 			</section>
             <footer>
                 <img src="vectors/logo.svg"/>
+                <ul>
+                    <li>
+                        Gyroprint3D - Tus ideas hechas realidad
+                    </li>
+                    <li>
+                        <img src="vectors/footer_v_account.svg"/>gyroprint3d@gmail.com
+                    </li>
+                    <li>
+                        <img src="vectors/footer_v_twitter.svg"/>@GyroPrint3D
+                    </li>
+                    <li>
+                        <img src="vectors/footer_v_instagram.svg"/>@gyroprint3d
+                    </li>
+                </ul>
             </footer>
 		</div><!-- /container -->
 

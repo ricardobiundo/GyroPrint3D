@@ -59,7 +59,7 @@ iframe {
 }
 
 section {
-    padding-bottom: 400px;
+    padding-bottom: 460px;
 }
 
 section > img {
@@ -92,7 +92,6 @@ section > img {
 
 footer {
     padding: 100px 0 100px;
-    text-align: center;
     font-size: 15px;
     font-weight: 300;
     color: #fafafa;
@@ -101,5 +100,33 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: -20;
-    height: 400px;
+    height: 460px;
+}
+
+footer > img {
+    float: left;
+    margin-left: 20%;
+}
+
+footer > ul {
+    float: right;
+    margin-right: 20%;
+}
+
+footer > ul > li {
+    list-style-type: none;
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding: auto;
+    vertical-align: middle;
+    display: table;
+    text-align: justify;
+}
+
+footer > ul > li > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    display: table-cell;
+    vertical-align: middle;
 }

@@ -18,6 +18,7 @@
 	width: 100%;
 	font-weight: 300;
 	font-size: 1.1em;
+    padding-bottom: 100px;
 }
 
 /* Nav */
@@ -163,7 +164,7 @@
 .content-wrap section p {
 	margin: 0;
 	padding: 1.75em 0;
-	color: rgba(40,44,42,0.05);
+	color: #b3b3b3;
 	font-weight: 900;
 	font-size: 4em;
 	line-height: 1;
