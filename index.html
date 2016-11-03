@@ -40,13 +40,9 @@
                 ninjaSldr.parentNode.style.display = "none";
             }
         }
-    </script>
-        
-        
-        
+    </script>  
 	</head>
 	<body>
-        
         <div style="display:none;">
         <div id="ninja-slider">
             <div class="slider-inner">
@@ -209,9 +205,12 @@
 			<!-- Top Navigation -->
 
 			<header class="codrops-header head">
+
                 <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" poster="http://dummyimage.com/320x240/ffffff/fff">
                     <source src="videos/4.mp4" type="video/mp4" />
                 </video>
+
+                <div class="header_static"></div>
                 <img src="img/logo.png">
                 <h1>GyroPrint3D <span>calidad, eficiencia y compromiso.</span></h1>
 
@@ -487,8 +486,10 @@
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 500) {
                 $('footer').css('z-index', '-1');
+                $('footer').css('visibility', 'visible');
             } else {
                 $('footer').css('z-index', '-20');
+                $('footer').css('visibility', 'hidden');
             }
         });
         </script>

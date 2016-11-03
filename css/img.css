@@ -68,12 +68,12 @@
     left:0;
     width:100%;
     text-align:center;
-    text-transform:capitalize;
+    /*text-transform:capitalize;*/
     font-size:18px;
     font-weight:bold;
     font-family: 'Oswald', sans-serif;
     font-weight:normal!important;
-    top:40%;
+    top:20%;
     color:white;
     opacity:0;
     filter:alpha(opacity=0);/*For older IE*/
